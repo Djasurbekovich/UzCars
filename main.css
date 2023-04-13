@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(50, 50, 50);
+  padding: 10px 0;
+  z-index: 1000;
+}
+.modal-dialog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body {
+  background-color: rgb(50, 50, 50);
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 70px;
+}
+
+@media only screen and (max-width: 450px) {
+  .cards {
+    justify-content: center;
+  }
+}
